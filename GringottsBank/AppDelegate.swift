@@ -16,6 +16,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarItem : NSStatusItem!
     var statusBarMenu : NSMenu!
 
+    // Enable Quit Feature
+    @objc func quit() {
+        NSApplication.shared.terminate(self)
+    }
+    
     func applicationDidFinishLaunching(_ notification: Notification) {
 
         // Returns the system-wide status bar located in the menu bar.
@@ -36,11 +41,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // An object that manages an app’s menus.
         self.statusBarMenu = NSMenu()
         self.statusBarMenu.addItem(withTitle: "Settings", action: #selector(openSettings), keyEquivalent: "")
+        self.statusBarMenu.addItem(withTitle: "Quit", action: #selector(quit), keyEquivalent: "")
 
         // Add menu to statusbar
         self.statusBarItem.menu = self.statusBarMenu
     }
     
+    // Trigger view of Settings Panel
     @objc func openSettings() {
         // Get focus from other apps
         NSApplication.shared.activate(ignoringOtherApps: true)
