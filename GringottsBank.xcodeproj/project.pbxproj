@@ -14,6 +14,9 @@
 		B097E3DF2ADBC3CF004E8E89 /* GringottsBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3DE2ADBC3CF004E8E89 /* GringottsBankTests.swift */; };
 		B097E3E92ADBC3CF004E8E89 /* GringottsBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3E82ADBC3CF004E8E89 /* GringottsBankUITests.swift */; };
 		B097E3EB2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3EA2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift */; };
+		B097E3F82ADBC3FD004E8E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3F72ADBC3FD004E8E89 /* AppDelegate.swift */; };
+		B097E3FA2ADBC433004E8E89 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3F92ADBC433004E8E89 /* SettingsView.swift */; };
+		B097E3FC2ADBC454004E8E89 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3FB2ADBC454004E8E89 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		B097E3E42ADBC3CF004E8E89 /* GringottsBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GringottsBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B097E3E82ADBC3CF004E8E89 /* GringottsBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankUITests.swift; sourceTree = "<group>"; };
 		B097E3EA2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B097E3F72ADBC3FD004E8E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B097E3F92ADBC433004E8E89 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B097E3FB2ADBC454004E8E89 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */,
 				B097E3D52ADBC3CF004E8E89 /* GringottsBank.entitlements */,
 				B097E3D22ADBC3CF004E8E89 /* Preview Content */,
+				B097E3F72ADBC3FD004E8E89 /* AppDelegate.swift */,
+				B097E3F92ADBC433004E8E89 /* SettingsView.swift */,
+				B097E3FB2ADBC454004E8E89 /* StatusBarView.swift */,
 			);
 			path = GringottsBank;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B097E3F82ADBC3FD004E8E89 /* AppDelegate.swift in Sources */,
+				B097E3FC2ADBC454004E8E89 /* StatusBarView.swift in Sources */,
+				B097E3FA2ADBC433004E8E89 /* SettingsView.swift in Sources */,
 				B097E3CF2ADBC3CC004E8E89 /* ContentView.swift in Sources */,
 				B097E3CD2ADBC3CC004E8E89 /* GringottsBankApp.swift in Sources */,
 			);
@@ -427,6 +439,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GringottsBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GringottsBank/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
