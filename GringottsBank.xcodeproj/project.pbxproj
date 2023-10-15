@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B097E3CD2ADBC3CC004E8E89 /* GringottsBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */; };
+		B097E3CF2ADBC3CC004E8E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */; };
+		B097E3D12ADBC3CF004E8E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */; };
+		B097E3D42ADBC3CF004E8E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B097E3D32ADBC3CF004E8E89 /* Preview Assets.xcassets */; };
+		B097E3DF2ADBC3CF004E8E89 /* GringottsBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3DE2ADBC3CF004E8E89 /* GringottsBankTests.swift */; };
+		B097E3E92ADBC3CF004E8E89 /* GringottsBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3E82ADBC3CF004E8E89 /* GringottsBankUITests.swift */; };
+		B097E3EB2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3EA2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B097E3DB2ADBC3CF004E8E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B097E3C12ADBC3CC004E8E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B097E3C82ADBC3CC004E8E89;
+			remoteInfo = GringottsBank;
+		};
+		B097E3E52ADBC3CF004E8E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B097E3C12ADBC3CC004E8E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B097E3C82ADBC3CC004E8E89;
+			remoteInfo = GringottsBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B097E3C92ADBC3CC004E8E89 /* GringottsBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GringottsBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankApp.swift; sourceTree = "<group>"; };
+		B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B097E3D32ADBC3CF004E8E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B097E3D52ADBC3CF004E8E89 /* GringottsBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GringottsBank.entitlements; sourceTree = "<group>"; };
+		B097E3DA2ADBC3CF004E8E89 /* GringottsBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GringottsBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B097E3DE2ADBC3CF004E8E89 /* GringottsBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankTests.swift; sourceTree = "<group>"; };
+		B097E3E42ADBC3CF004E8E89 /* GringottsBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GringottsBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B097E3E82ADBC3CF004E8E89 /* GringottsBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankUITests.swift; sourceTree = "<group>"; };
+		B097E3EA2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B097E3C62ADBC3CC004E8E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3D72ADBC3CF004E8E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3E12ADBC3CF004E8E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B097E3C02ADBC3CC004E8E89 = {
+			isa = PBXGroup;
+			children = (
+				B097E3CB2ADBC3CC004E8E89 /* GringottsBank */,
+				B097E3DD2ADBC3CF004E8E89 /* GringottsBankTests */,
+				B097E3E72ADBC3CF004E8E89 /* GringottsBankUITests */,
+				B097E3CA2ADBC3CC004E8E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B097E3CA2ADBC3CC004E8E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B097E3C92ADBC3CC004E8E89 /* GringottsBank.app */,
+				B097E3DA2ADBC3CF004E8E89 /* GringottsBankTests.xctest */,
+				B097E3E42ADBC3CF004E8E89 /* GringottsBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B097E3CB2ADBC3CC004E8E89 /* GringottsBank */ = {
+			isa = PBXGroup;
+			children = (
+				B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */,
+				B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */,
+				B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */,
+				B097E3D52ADBC3CF004E8E89 /* GringottsBank.entitlements */,
+				B097E3D22ADBC3CF004E8E89 /* Preview Content */,
+			);
+			path = GringottsBank;
+			sourceTree = "<group>";
+		};
+		B097E3D22ADBC3CF004E8E89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B097E3D32ADBC3CF004E8E89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B097E3DD2ADBC3CF004E8E89 /* GringottsBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				B097E3DE2ADBC3CF004E8E89 /* GringottsBankTests.swift */,
+			);
+			path = GringottsBankTests;
+			sourceTree = "<group>";
+		};
+		B097E3E72ADBC3CF004E8E89 /* GringottsBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B097E3E82ADBC3CF004E8E89 /* GringottsBankUITests.swift */,
+				B097E3EA2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift */,
+			);
+			path = GringottsBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B097E3C82ADBC3CC004E8E89 /* GringottsBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B097E3EE2ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBank" */;
+			buildPhases = (
+				B097E3C52ADBC3CC004E8E89 /* Sources */,
+				B097E3C62ADBC3CC004E8E89 /* Frameworks */,
+				B097E3C72ADBC3CC004E8E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GringottsBank;
+			productName = GringottsBank;
+			productReference = B097E3C92ADBC3CC004E8E89 /* GringottsBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B097E3D92ADBC3CF004E8E89 /* GringottsBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B097E3F12ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBankTests" */;
+			buildPhases = (
+				B097E3D62ADBC3CF004E8E89 /* Sources */,
+				B097E3D72ADBC3CF004E8E89 /* Frameworks */,
+				B097E3D82ADBC3CF004E8E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B097E3DC2ADBC3CF004E8E89 /* PBXTargetDependency */,
+			);
+			name = GringottsBankTests;
+			productName = GringottsBankTests;
+			productReference = B097E3DA2ADBC3CF004E8E89 /* GringottsBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B097E3E32ADBC3CF004E8E89 /* GringottsBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B097E3F42ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBankUITests" */;
+			buildPhases = (
+				B097E3E02ADBC3CF004E8E89 /* Sources */,
+				B097E3E12ADBC3CF004E8E89 /* Frameworks */,
+				B097E3E22ADBC3CF004E8E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B097E3E62ADBC3CF004E8E89 /* PBXTargetDependency */,
+			);
+			name = GringottsBankUITests;
+			productName = GringottsBankUITests;
+			productReference = B097E3E42ADBC3CF004E8E89 /* GringottsBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B097E3C12ADBC3CC004E8E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B097E3C82ADBC3CC004E8E89 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B097E3D92ADBC3CF004E8E89 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B097E3C82ADBC3CC004E8E89;
+					};
+					B097E3E32ADBC3CF004E8E89 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B097E3C82ADBC3CC004E8E89;
+					};
+				};
+			};
+			buildConfigurationList = B097E3C42ADBC3CC004E8E89 /* Build configuration list for PBXProject "GringottsBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B097E3C02ADBC3CC004E8E89;
+			productRefGroup = B097E3CA2ADBC3CC004E8E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B097E3C82ADBC3CC004E8E89 /* GringottsBank */,
+				B097E3D92ADBC3CF004E8E89 /* GringottsBankTests */,
+				B097E3E32ADBC3CF004E8E89 /* GringottsBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B097E3C72ADBC3CC004E8E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B097E3D42ADBC3CF004E8E89 /* Preview Assets.xcassets in Resources */,
+				B097E3D12ADBC3CF004E8E89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3D82ADBC3CF004E8E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3E22ADBC3CF004E8E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B097E3C52ADBC3CC004E8E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B097E3CF2ADBC3CC004E8E89 /* ContentView.swift in Sources */,
+				B097E3CD2ADBC3CC004E8E89 /* GringottsBankApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3D62ADBC3CF004E8E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B097E3DF2ADBC3CF004E8E89 /* GringottsBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B097E3E02ADBC3CF004E8E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B097E3EB2ADBC3CF004E8E89 /* GringottsBankUITestsLaunchTests.swift in Sources */,
+				B097E3E92ADBC3CF004E8E89 /* GringottsBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B097E3DC2ADBC3CF004E8E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B097E3C82ADBC3CC004E8E89 /* GringottsBank */;
+			targetProxy = B097E3DB2ADBC3CF004E8E89 /* PBXContainerItemProxy */;
+		};
+		B097E3E62ADBC3CF004E8E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B097E3C82ADBC3CC004E8E89 /* GringottsBank */;
+			targetProxy = B097E3E52ADBC3CF004E8E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B097E3EC2ADBC3CF004E8E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B097E3ED2ADBC3CF004E8E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B097E3EF2ADBC3CF004E8E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GringottsBank/GringottsBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GringottsBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B097E3F02ADBC3CF004E8E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GringottsBank/GringottsBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GringottsBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B097E3F22ADBC3CF004E8E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GringottsBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GringottsBank";
+			};
+			name = Debug;
+		};
+		B097E3F32ADBC3CF004E8E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GringottsBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GringottsBank";
+			};
+			name = Release;
+		};
+		B097E3F52ADBC3CF004E8E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GringottsBank;
+			};
+			name = Debug;
+		};
+		B097E3F62ADBC3CF004E8E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royhan.GringottsBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GringottsBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B097E3C42ADBC3CC004E8E89 /* Build configuration list for PBXProject "GringottsBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B097E3EC2ADBC3CF004E8E89 /* Debug */,
+				B097E3ED2ADBC3CF004E8E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B097E3EE2ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B097E3EF2ADBC3CF004E8E89 /* Debug */,
+				B097E3F02ADBC3CF004E8E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B097E3F12ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B097E3F22ADBC3CF004E8E89 /* Debug */,
+				B097E3F32ADBC3CF004E8E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B097E3F42ADBC3CF004E8E89 /* Build configuration list for PBXNativeTarget "GringottsBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B097E3F52ADBC3CF004E8E89 /* Debug */,
+				B097E3F62ADBC3CF004E8E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B097E3C12ADBC3CC004E8E89 /* Project object */;
+}
