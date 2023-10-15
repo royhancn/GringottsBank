@@ -32,11 +32,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
                 if let button = self.statusBarItem.button {
                     let view = NSHostingView(rootView: statusBarView)
-                    view.setFrameSize(NSSize(width: 57, height: NSStatusBar.system.thickness))
+                    view.setFrameSize(NSSize(width: 120, height: NSStatusBar.system.thickness))
                     
                     button.subviews.forEach { $0.removeFromSuperview() }
                     button.addSubview(view)
-                    self.statusBarItem.length = 57
+                    self.statusBarItem.length = 120
                 }
 
         // An object that manages an app’s menus.
