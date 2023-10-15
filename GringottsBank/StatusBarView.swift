@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct StatusBarView: View {
+    @ObservedObject var statusDataModel = SharedStore.statusDataModel
+    
     var body: some View {
-        Text("666666")
+        Text(String(statusDataModel.earnedToday))
     }
 }
 

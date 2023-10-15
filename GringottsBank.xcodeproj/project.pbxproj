@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B01550E22ADBCD6F0066E7BD /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01550E12ADBCD6E0066E7BD /* Store.swift */; };
+		B01550E52ADBCDC70066E7BD /* StatusDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01550E42ADBCDC70066E7BD /* StatusDataModel.swift */; };
+		B01550E72ADBCE970066E7BD /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01550E62ADBCE970066E7BD /* Calculate.swift */; };
 		B097E3CD2ADBC3CC004E8E89 /* GringottsBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */; };
 		B097E3CF2ADBC3CC004E8E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */; };
 		B097E3D12ADBC3CF004E8E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B01550E12ADBCD6E0066E7BD /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B01550E42ADBCDC70066E7BD /* StatusDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusDataModel.swift; sourceTree = "<group>"; };
+		B01550E62ADBCE970066E7BD /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		B097E3C92ADBC3CC004E8E89 /* GringottsBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GringottsBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GringottsBankApp.swift; sourceTree = "<group>"; };
 		B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B01550E32ADBCDB60066E7BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B01550E42ADBCDC70066E7BD /* StatusDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B097E3C02ADBC3CC004E8E89 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,7 @@
 		B097E3CB2ADBC3CC004E8E89 /* GringottsBank */ = {
 			isa = PBXGroup;
 			children = (
+				B01550E32ADBCDB60066E7BD /* Model */,
 				B097E3CC2ADBC3CC004E8E89 /* GringottsBankApp.swift */,
 				B097E3CE2ADBC3CC004E8E89 /* ContentView.swift */,
 				B097E3D02ADBC3CF004E8E89 /* Assets.xcassets */,
@@ -109,6 +124,8 @@
 				B097E3F72ADBC3FD004E8E89 /* AppDelegate.swift */,
 				B097E3F92ADBC433004E8E89 /* SettingsView.swift */,
 				B097E3FB2ADBC454004E8E89 /* StatusBarView.swift */,
+				B01550E12ADBCD6E0066E7BD /* Store.swift */,
+				B01550E62ADBCE970066E7BD /* Calculate.swift */,
 			);
 			path = GringottsBank;
 			sourceTree = "<group>";
@@ -268,11 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01550E72ADBCE970066E7BD /* Calculate.swift in Sources */,
 				B097E3F82ADBC3FD004E8E89 /* AppDelegate.swift in Sources */,
 				B097E3FC2ADBC454004E8E89 /* StatusBarView.swift in Sources */,
 				B097E3FA2ADBC433004E8E89 /* SettingsView.swift in Sources */,
+				B01550E22ADBCD6F0066E7BD /* Store.swift in Sources */,
 				B097E3CF2ADBC3CC004E8E89 /* ContentView.swift in Sources */,
 				B097E3CD2ADBC3CC004E8E89 /* GringottsBankApp.swift in Sources */,
+				B01550E52ADBCDC70066E7BD /* StatusDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

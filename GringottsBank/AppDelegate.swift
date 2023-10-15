@@ -25,6 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // Returns the system-wide status bar located in the menu bar.
         let statusBarView = AnyView(StatusBarView())
+        let calculate = Calculate()
 
         // Returns a newly created status item that has been allotted a specified space within the status bar.
         self.statusBarItem = NSStatusBar.system.statusItem(withLength: CGFloat(NSStatusItem.variableLength))
@@ -45,6 +46,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // Add menu to statusbar
         self.statusBarItem.menu = self.statusBarMenu
+        
+        calculate.initTimer()
     }
     
     // Trigger view of Settings Panel
