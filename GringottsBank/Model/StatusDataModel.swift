@@ -8,10 +8,10 @@
 import Foundation
 
 class StatusDataModel: ObservableObject {
-    @Published var earnedToday: Int = 0
-    @Published var earnedThisMonth: Int = 0
+    @Published var earnedToday: Double = 0
+    @Published var earnedThisMonth: Double = 0
     
-    public func update(earnedToday: Int, earnedThisMonth: Int) {
+    public func update(earnedToday: Double, earnedThisMonth: Double) {
         self.earnedToday = earnedToday
         self.earnedThisMonth = earnedThisMonth
     }

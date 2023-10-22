@@ -13,7 +13,7 @@ struct GringottsBankApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
-        Settings { // Dont forget to change this line to Settings
+        Settings { // This is not a desktop app with actual window, so making this class Settings
             ContentView()
         }
     }

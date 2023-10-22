@@ -10,8 +10,9 @@ import SwiftUI
 struct StatusBarView: View {
     @ObservedObject var statusDataModel = SharedStore.statusDataModel
     
+    // Reserve 2 decimal for the final salary
     var body: some View {
-        Text(String(statusDataModel.earnedToday))
+        Text(String(format: "%.2f", statusDataModel.earnedToday))
     }
 }
 
