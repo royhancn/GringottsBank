@@ -49,10 +49,19 @@ class Calculate {
         totalWorkingTimeMS = Double(workingHours * 60 * 60 * 1000)
         
         // Money earned today = Monthly Salary devided by working days in a month multiply by percentage of today's working hours
-        earnedToday = Double(monthlySalary/workingDays)*Double(timeGap/totalWorkingTimeMS)
+        if timeGap < 0 {
+            earnedToday = 0
+        }
+        else if timeGap > totalWorkingTimeMS {
+            earnedToday = Double(monthlySalary/workingDays)
+        }
+        else {
+            earnedToday = Double(monthlySalary/workingDays)*Double(timeGap/totalWorkingTimeMS)
+        }
         
         self.statusDataModel.update(earnedToday: earnedToday, earnedThisMonth: earnedToday)
         limitTime = limitTime - 1
+        
         if limitTime == 0 {
             cancelTimer()
         }
