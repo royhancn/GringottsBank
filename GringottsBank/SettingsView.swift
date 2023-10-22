@@ -10,6 +10,8 @@ import SwiftUI
 struct SettingsView: View {
     @ObservedObject var configDataModel = SharedStore.configDataModel
     @State private var monthlySalary:Double = 0
+    @State private var doAlert = false
+    let alertTitle: String = "Poor kid..."
     
     private static let formatter: NumberFormatter = {
             let formatter = NumberFormatter()
@@ -27,7 +29,24 @@ struct SettingsView: View {
         }.padding(.all)
         
         Button("Apply"){
-            self.configDataModel.updateConfig(monthlySalary: monthlySalary)
+            if monthlySalary < 100000 {
+                doAlert = true
+            }
         }.buttonStyle(.bordered)
+            .alert(
+                alertTitle,
+                isPresented: $doAlert
+            ) {
+                Button(role: .destructive) {
+                    self.configDataModel.updateConfig(monthlySalary: monthlySalary)
+                } label: {
+                    Text("Alright")
+                }
+                Button("You bad bad") {
+                    // Handle the retry action.
+                }
+            } message: {
+                Text("Are you sure you only earn such little amount of salary? So sad.")
+        }
     }
 }
