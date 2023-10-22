@@ -9,4 +9,5 @@ import SwiftUI
 
 enum SharedStore {
     static let statusDataModel = StatusDataModel()
+    static let configDataModel = ConfigDataModel()
 }

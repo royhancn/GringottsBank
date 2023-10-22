@@ -9,13 +9,14 @@ import Foundation
 import SwiftUI
 
 class Calculate {
+
     @ObservedObject var statusDataModel = SharedStore.statusDataModel
+    @ObservedObject var configDataModel = SharedStore.configDataModel
     
     // Limited time of loop
     var limitTime = 10000
     
     var earnedToday = Double(0)
-    var monthlySalary = Double(22000)
     var workingDays = Double(21.75)
     var workingHours = 8
     var totalWorkingTimeMS = Double(0)
@@ -32,6 +33,7 @@ class Calculate {
     
     @objc public func startCalculate() {
         var unixTimeStampMS = 0
+        let monthlySalary = configDataModel.monthlySalary
         
         // Get current unix timestamp in milliseconds
         unixTimeStampMS = Int(Date().timeIntervalSince1970 * 1000)
