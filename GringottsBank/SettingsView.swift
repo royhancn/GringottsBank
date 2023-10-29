@@ -14,18 +14,26 @@ struct SettingsView: View {
     let alertTitle: String = "Poor kid..."
     
     private static let formatter: NumberFormatter = {
-            let formatter = NumberFormatter()
-            formatter.numberStyle = .decimal
-            return formatter
-        }()
+        let formatter = NumberFormatter()
+        // Disable separator
+        formatter.usesGroupingSeparator = false
+        formatter.numberStyle = .decimal
+        return formatter
+    }()
     
     var body: some View {
+        
         Text("Placeholder for settings")
             .frame(width: 200, height: 100, alignment: .center)
         HStack{
-                Text("Monthly Salary")
-                Spacer()
-                TextField("Please input your monthly salary", value:$monthlySalary, formatter: Self.formatter)
+            Text("Monthly Salary")
+            Spacer()
+            TextField("Please input your monthly salary", value:$monthlySalary, formatter: Self.formatter)
+                //.focused($isFocused)
+                .onAppear {
+                    // Read the current monthlySalary value upon Settings Window Load
+                    monthlySalary = configDataModel.monthlySalary
+                }
         }.padding(.all)
         
         Button("Apply"){
@@ -43,7 +51,7 @@ struct SettingsView: View {
                     Text("Alright")
                 }
                 Button("You bad bad") {
-                    // Handle the retry action.
+                    // Do nothing.
                 }
             } message: {
                 Text("Are you sure you only earn such little amount of salary? So sad.")

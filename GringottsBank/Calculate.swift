@@ -25,7 +25,7 @@ class Calculate {
     var timer:Timer?
     
     func initTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(startCalculate), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(startCalculate), userInfo: nil, repeats: true)
         if let curTimer : Timer = timer{
             RunLoop.main.add(curTimer, forMode: .common)
         }
@@ -42,8 +42,15 @@ class Calculate {
         // Translate data format for start working time
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-        let startWorkingTime = dateFormatter.date(from: "2023-10-22 09:30:00")
         
+        let dateFormatter2 = DateFormatter()
+        dateFormatter2.dateFormat = "yyyy-MM-dd"
+        
+        let now = Date()
+        let todayDate = dateFormatter2.string(from: now)
+        
+        let startWorkingTimeString = todayDate + " 09:30:00"
+        let startWorkingTime = dateFormatter.date(from: startWorkingTimeString)
         startWorkingTimeUnix = Int(startWorkingTime!.timeIntervalSince1970 * 1000)
         
         // Calculate how many MS worked today
